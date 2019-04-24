@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bgimg{
+    background-image: url('../images/bg-1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+    
+}
+.top-head h1{
+    margin: 10px;
+    color: white;
+    text-shadow: 1px 1px  #ffcc00;  
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar-nav{
+    padding: 10px;
+    margin-left: 260px;
+    
+}
+.navbar-brand img{
+    padding-top: 7px;
+    width: 30%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    margin-right: 20px;
+    background-color: #fff;
+    color:#ffcc00 !important;
+    font-size: 18px;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0px 5px 10px grey;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #ffcc00 !important;
+    color:black !important;
+    box-shadow: 0px 5px 10px grey;
+}
+/*---home----*/
+.home{
+    padding: 40px 0px 40px;
+}
+.home img{
+    padding-top: 40px;
+   height: 250px;
+}
+/*-----------our services-------*/
+.ourservices{
+   padding: 120px 0px 18px; /*top left-right bottom */
+   height: 700px;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+   margin: 80px 0px; /*top bottom*/
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
+    padding: 10px;
+    color: #6c757d;
+}
+.imgsetting{
+    background-color:#ffcc00;
+    border-radius: 50%; /*for circle*/ 
+    height: 100px;
+    width: 100px;
+}
+.imgsetting i{
+    margin-top: 24px;
+}
+/* ----- go top---*/
+   #myBtn {
+                display: none;
+                position: fixed;
+                right: 1.5625rem;
+                bottom: 1.30rem;
+                height: 3.100rem;
+                width: 3.125rem;
+                background-color:#ffcc00;
+                color: black;
+                font-size: 20px;
+                line-height: 3.125rem;
+                text-align: center;
+                cursor: pointer;
+                border-radius: 50%;
+                box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+                z-index: 99;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
